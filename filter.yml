@@ -1,0 +1,17 @@
+﻿
+apiRules:
+- exclude:
+    hasAttribute:
+      uid: System.ObsoleteAttribute
+- exclude:
+    uidRegex: ^GameCanvas\.Editor$
+    type: Namespace
+- exclude:
+    uidRegex: ^GameCanvas\.BehaviourBase$
+    type: Type
+- exclude:
+    uidRegex: ^GameCanvas\.Resource$
+    type: Type
+- exclude:
+    uidRegex: ^GameCanvas\.Resource\.[^.]+$
+    type: Type

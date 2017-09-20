@@ -1,0 +1,73 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "GameCanvas-Unity.Plugins.csproj"
+          ],
+          "cwd": ".",
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ],
+		  "src": "../GameCanvas-Unity"
+        }
+      ],
+      "dest": "obj/api",
+      "filter": "filter.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml"
+        ],
+        "cwd": "obj"
+      },
+      {
+        "files": [
+		  "index.md",
+          "api/*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "toc.md",
+          "overwrite.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "styles/**",
+		  "langwordmapping/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "toc.md",
+          "overwrite.md"
+        ]
+      }
+    ],
+	"overwrite": "overwrite.md",
+	"xref": [
+      "xref.yml"
+    ],
+	"globalMetadata": {
+		"_appTitle": "GameCanvas",
+		"_appFooter": "(c) 2015-2017 Smart Device Programming.",
+		"_appLogoPath": "images/logo.png",
+		"_disableNavbar": true,
+		"_disableBreadcrumb": true,
+		"_disableToc": true
+	},
+    "dest": "../GameCanvas-Unity/docs",
+    "template": [
+      "statictoc"
+    ]
+  }
+}
