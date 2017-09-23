@@ -4,3 +4,5 @@
 - name: API Documentation
   href: obj/api/
   homepage: api/GameCanvas.Proxy.html
+- name: API Compatibility
+  href: obj/note/compatibility.md

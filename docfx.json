@@ -30,7 +30,8 @@
       {
         "files": [
 		  "index.md",
-          "api/*.md"
+          "api/*.md",
+          "note/*.md"
         ],
         "exclude": [
           "obj/**",

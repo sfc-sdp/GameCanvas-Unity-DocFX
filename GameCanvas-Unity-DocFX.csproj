@@ -46,6 +46,7 @@
     <None Include="filter.yml" />
     <None Include="index.md" />
     <None Include="langwordmapping\langwordMapping.yml" />
+    <None Include="note\compatibility.md" />
     <None Include="overwrite.md" />
     <None Include="packages.config" />
     <None Include="toc.yml" />
