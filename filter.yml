@@ -15,3 +15,9 @@ apiRules:
 - exclude:
     uidRegex: ^GameCanvas\.Resource\.[^.]+$
     type: Type
+- exclude:
+    uidRegex: ^GameCanvas\.Tests$
+    type: Type
+- exclude:
+    uidRegex: ^GameCanvas\.Tests\.[^.]+$
+    type: Type
