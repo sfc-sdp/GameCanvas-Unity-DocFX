@@ -7,9 +7,9 @@ v1.2 以前に存在し v2.0 で変更・廃止されたAPIの一覧と対応表
 
 v1.2 | v2.0 | 備考
 --- | --- | ---
-acceX |  | *TODO*
-acceY |  | *TODO*
-acceZ |  | *TODO*
+acceX | @GameCanvas.Proxy.AccelerationLastX* | 関数名の変更
+acceY | @GameCanvas.Proxy.AccelerationLastY* | 関数名の変更
+acceZ | @GameCanvas.Proxy.AccelerationLastZ* | 関数名の変更
 cameraImageHeight |  | `Obsolete`
 cameraImageWidth |  | `Obsolete`
 ChangeBGMVolume | @GameCanvas.Proxy.SetSoundVolume* | 関数名と型の変更
@@ -37,7 +37,7 @@ DrawImage | @GameCanvas.Proxy.DrawImage* | 引数の型の変更
 DrawImageSRT | @GameCanvas.Proxy.DrawScaledRotateImage* | 関数名と型の変更
 DrawLine | @GameCanvas.Proxy.DrawLine* | 引数の型の変更
 DrawMultiLineString |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawString*
-DrawOnlineImage |  | `Obsolete`
+DrawOnlineImage |  | 引数の型の変更
 DrawOnlineImageSRT |  | `Obsolete`
 DrawRect | @GameCanvas.Proxy.DrawRect* | 引数の型の変更
 DrawRotatedCameraImage |  | `Obsolete`
@@ -64,17 +64,15 @@ GetIsKeyReleased | @GameCanvas.Proxy.GetIsKeyEnded* | 引数の型の変更
 GetMilliSecond | @GameCanvas.Proxy.CurrentMillisecond* | 関数名の変更
 GetMinute | @GameCanvas.Proxy.CurrentMinute* | 関数名の変更
 GetMonth | @GameCanvas.Proxy.CurrentMonth* | 関数名の変更
-GetOnlineImageHeight |  | `Obsolete`
-GetOnlineImageWidth |  | `Obsolete`
 GetSecond | @GameCanvas.Proxy.CurrentSecond* | 関数名の変更
 GetTextFromNet |  | `Obsolete`
-GetTextFromNetAsync |  | `Obsolete`
+GetTextFromNetAsync |  | `Obsolete` 代替: @GameCanvas.Proxy.GetOnlineTextAsync*
 GetTouchPoint |  | `Obsolete` 代替: @GameCanvas.Proxy.GetPointerX* @GameCanvas.Proxy.GetPointerY*
 GetYear | @GameCanvas.Proxy.CurrentYear* | 関数名の変更
 gyroX |  | *TODO*
 gyroY |  | *TODO*
 gyroZ |  | *TODO*
-isBackKeyPushed |  | `Obsolete` 代替: @GameCanvas.Proxy.GetIsKeyBegan*
+isBackKeyPushed |  | `Obsolete` 代替: @GameCanvas.Proxy.IsPressBackButton
 isCompassEnabled |  | `Obsolete`
 isDevelop |  | `Obsolete`
 isDownloadedImage |  | `Obsolete`
@@ -83,21 +81,21 @@ isFullScreen |  | `Obsolete`
 isGyroEnabled |  | `Obsolete`
 isHold |  | `Obsolete` 代替: @GameCanvas.Proxy.GetPointerDuration*
 isLoaded |  | `Obsolete`
-isLocationEnabled |  | `Obsolete`
+isLocationEnabled | @GameCanvas.Proxy.HasGeolocationPermission* | 関数名の変更
 isOpenWS |  | `Obsolete`
 isPinchIn |  | `Obsolete`
 isPinchInOut |  | `Obsolete`
 isPinchOut |  | `Obsolete`
 isPortrait |  | `Obsolete`
-isRunningLocaltionService |  | `Obsolete`
+isRunningLocaltionService | @GameCanvas.Proxy.IsGeolocationRunning* | 関数名の変更、仕様変更
 isScreenAutoRotation |  | `Obsolete`
 isTap |  | `Obsolete` 代替: @GameCanvas.Proxy.GetPointerDuration*
 isTouch |  | `Obsolete` 代替: @GameCanvas.Proxy.HasPointerEvent* @GameCanvas.Proxy.PointerCount*
 isTouchBegan |  | `Obsolete` 代替: @GameCanvas.Proxy.GetIsPointerBegan*
 isTouchEnded |  | `Obsolete` 代替: @GameCanvas.Proxy.GetIsPointerEnded*
-lastLocationLatitude |  | *TODO*
-lastLocationLongitude |  | *TODO*
-lastLocationTime |  | *TODO*
+lastLocationLatitude | @GameCanvas.Proxy.GeolocationLastLatitude* | 関数名の変更
+lastLocationLongitude | @GameCanvas.Proxy.GeolocationLastLongitude* | 関数名の変更
+lastLocationTime | @GameCanvas.Proxy.GeolocationLastTime* | 関数名と型の変更
 Load |  | *TODO*
 LoadAsInt | @GameCanvas.Proxy.Load* | 関数名と型の変更
 LoadAsNumber |  | *TODO*
@@ -126,10 +124,10 @@ SetTextHorizontalRatio |  | `Obsolete`
 SetTextLineHeight |  | `Obsolete`
 SetTextTracking |  | `Obsolete`
 StartCameraService |  | `Obsolete`
-StartLocationService |  | `Obsolete`
+StartLocationService | @GameCanvas.Proxy.StartGeolocationService* | 関数名の変更
 StopBGM | @GameCanvas.Proxy.StopSound* | 関数名の変更
 StopCameraService |  | `Obsolete`
-StopLocationService |  | `Obsolete`
+StopLocationService | @GameCanvas.Proxy.StopGeolocationService* | 関数名の変更
 time | @GameCanvas.Proxy.TimeSinceStartup* | 関数名の変更
 touchCount | @GameCanvas.Proxy.PointerCount* | 関数名の変更
 touchPoint |  | `Obsolete`
