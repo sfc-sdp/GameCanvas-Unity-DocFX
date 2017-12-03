@@ -10,8 +10,8 @@ v1.2 | v2.0 | 備考
 acceX | @GameCanvas.Proxy.AccelerationLastX* | 関数名の変更
 acceY | @GameCanvas.Proxy.AccelerationLastY* | 関数名の変更
 acceZ | @GameCanvas.Proxy.AccelerationLastZ* | 関数名の変更
-cameraImageHeight |  | `Obsolete`
-cameraImageWidth |  | `Obsolete`
+cameraImageHeight | @GameCanvas.Proxy.CurrentCameraHeight | 関数名の変更
+cameraImageWidth | @GameCanvas.Proxy.CurrentCameraWidth | 関数名の変更
 ChangeBGMVolume | @GameCanvas.Proxy.SetSoundVolume* | 関数名と型の変更
 ChangeSEVolume |  | `Obsolete`
 CheckHitCircle | @GameCanvas.Proxy.CheckHitCircle* | 引数の型の変更
@@ -26,10 +26,10 @@ Deg2Rad |  | `Obsolete`
 DeleteData |  | `Obsolete`
 DeleteDataAll |  | `Obsolete`
 deltaTime | @GameCanvas.Proxy.TimeSincePrevFrame* | 関数名の変更
-DrawCameraImage |  | `Obsolete`
-DrawCameraImageSRT |  | `Obsolete`
+DrawCameraImage | @GameCanvas.Proxy.DrawCameraImage* | 引数の型の変更
+DrawCameraImageSRT |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawScaledRotateCameraImage*
 DrawCircle | @GameCanvas.Proxy.DrawCircle* | 引数の型の変更
-DrawClippedCameraImage |  | `Obsolete`
+DrawClippedCameraImage | @GameCanvas.Proxy.DrawClipCameraImage* | 関数名と型の変更、仕様変更
 DrawClippedImage |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawClipImage*
 DrawClippedImageUVWH | @GameCanvas.Proxy.DrawClipImage* | 関数名と型の変更、仕様変更
 DrawClippedOnlineImage |  | `Obsolete`
@@ -40,11 +40,11 @@ DrawMultiLineString |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawString*
 DrawOnlineImage |  | 引数の型の変更
 DrawOnlineImageSRT |  | `Obsolete`
 DrawRect | @GameCanvas.Proxy.DrawRect* | 引数の型の変更
-DrawRotatedCameraImage |  | `Obsolete`
+DrawRotatedCameraImage |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawScaledRotateCameraImage*
 DrawRotatedImage |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawScaledRotateImage*
 DrawRotatedOnlineImage |  | `Obsolete`
 DrawRotatedRect |  | *TODO*
-DrawScaledCameraImage |  | `Obsolete`
+DrawScaledCameraImage |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawScaledRotateCameraImage*
 DrawScaledImage |  | `Obsolete` 代替: @GameCanvas.Proxy.DrawScaledRotateImage*
 DrawScaledOnlineImage |  | `Obsolete`
 DrawString | @GameCanvas.Proxy.DrawString* | 引数順と型の変更、ダイナミックフォント対応
@@ -123,10 +123,9 @@ SetFontSize | @GameCanvas.Proxy.SetFontSize* | 引数の型の変更
 SetTextHorizontalRatio |  | `Obsolete`
 SetTextLineHeight |  | `Obsolete`
 SetTextTracking |  | `Obsolete`
-StartCameraService |  | `Obsolete`
+StartCameraService | @GameCanvas.Proxy.StartCameraService* | 引数の型の変更
 StartLocationService | @GameCanvas.Proxy.StartGeolocationService* | 関数名の変更
 StopBGM | @GameCanvas.Proxy.StopSound* | 関数名の変更
-StopCameraService |  | `Obsolete`
 StopLocationService | @GameCanvas.Proxy.StopGeolocationService* | 関数名の変更
 time | @GameCanvas.Proxy.TimeSinceStartup* | 関数名の変更
 touchCount | @GameCanvas.Proxy.PointerCount* | 関数名の変更
