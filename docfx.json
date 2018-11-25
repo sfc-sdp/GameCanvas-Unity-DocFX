@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "GameCanvas-Unity.Plugins.csproj"
+            "GameCanvas.csproj"
           ],
           "cwd": ".",
           "exclude": [
@@ -60,7 +60,7 @@
     ],
 	"globalMetadata": {
 		"_appTitle": "GameCanvas",
-		"_appFooter": "(c) 2015-2017 Smart Device Programming.",
+		"_appFooter": "(c) 2015-2018 Smart Device Programming.",
 		"_appLogoPath": "images/logo.png",
 		"_disableNavbar": true,
 		"_disableBreadcrumb": true,

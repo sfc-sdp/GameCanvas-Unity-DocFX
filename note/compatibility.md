@@ -172,7 +172,7 @@ KEY_Z |  | `Obsolete`
 pauseBGM | @GameCanvas.Proxy.PauseSound* | 関数名の変更
 pauseSE |  | `Obsolete`
 playBGM | @GameCanvas.Proxy.PlaySound* | 関数名の変更
-playSE |  | `Obsolete`
+playSE | @GameCanvas.Proxy.PlaySE* | 引数の変更
 rand | @GameCanvas.Proxy.Random* | 関数名の変更
 resetGame |  | `Obsolete`
 setFont | @GameCanvas.Proxy.SetFont* | 引数の型の変更
