@@ -1,31 +1,37 @@
 ﻿references:
 - uid: UnityEngine.Color
   name: Color
-  href: https://docs.unity3d.com/2017.1/Documentation/ScriptReference/Color.html
+  href: https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Color.html
 - uid: UnityEngine.FontStyle
   name: FontStyle
-  href: https://docs.unity3d.com/2017.1/Documentation/ScriptReference/FontStyle.html
+  href: https://docs.unity3d.com/2019.4/Documentation/ScriptReference/FontStyle.html
 - uid: System.Boolean
   name: bool
-  href: https://msdn.microsoft.com/ja-jp/library/system.boolean(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.boolean?view=netstandard-2.0
 - uid: System.Single
   name: float
-  href: https://msdn.microsoft.com/ja-jp/library/system.single(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.single?view=netstandard-2.0
 - uid: System.Double
   name: double
-  href: https://msdn.microsoft.com/ja-jp/library/system.double(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.double?view=netstandard-2.0
 - uid: System.String
   name: string
-  href: https://msdn.microsoft.com/ja-jp/library/system.string(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.string?view=netstandard-2.0
 - uid: System.Int32
   name: int
-  href: https://msdn.microsoft.com/ja-jp/library/system.int32(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.int32?view=netstandard-2.0
 - uid: System.Int64
   name: long
-  href: https://msdn.microsoft.com/ja-jp/library/system.int64(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.int64?view=netstandard-2.0
+- uid: System.Nullable
+  name: Nullable
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.nullable?view=netstandard-2.0
 - uid: System.DateTimeOffset
   name: DateTimeOffset
-  href: https://msdn.microsoft.com/ja-jp/library/system.datetimeoffset(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.datetimeoffset?view=netstandard-2.0
 - uid: System.DayOfWeek
   name: DayOfWeek
-  href: https://msdn.microsoft.com/ja-jp/library/system.dayofweek(v=vs.110).aspx
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.dayofweek?view=netstandard-2.0
+- uid: System.Numerics.BigInteger
+  name: BigInteger
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.numerics.biginteger?view=netstandard-2.0

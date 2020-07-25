@@ -1,75 +1,75 @@
 {
-  "metadata": [
-    {
-      "src": [
+    "metadata": [
         {
-          "files": [
-            "GameCanvas.csproj"
-          ],
-          "cwd": ".",
-          "exclude": [
-            "**/obj/**",
-            "**/bin/**",
-            "_site/**"
-          ],
-		  "src": "../GameCanvas-Unity"
+            "src": [
+                {
+                    "files": [
+                        "GameCanvas.csproj"
+                    ],
+                    "cwd": ".",
+                    "exclude": [
+                        "**/obj/**",
+                        "**/bin/**",
+                        "_site/**"
+                    ],
+                    "src": "../GameCanvas-Unity"
+                }
+            ],
+            "dest": "obj/api",
+            "filter": "filter.yml"
         }
-      ],
-      "dest": "obj/api",
-      "filter": "filter.yml"
+    ],
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "api/**.yml"
+                ],
+                "cwd": "obj"
+            },
+            {
+                "files": [
+                    "index.md",
+                    "api/*.md",
+                    "note/*.md"
+                ],
+                "exclude": [
+                    "obj/**",
+                    "toc.md",
+                    "overwrite.md"
+                ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "images/**",
+                    "styles/**",
+                    "langwordmapping/**"
+                ],
+                "exclude": [
+                    "obj/**",
+                    "toc.md",
+                    "overwrite.md"
+                ]
+            }
+        ],
+        "overwrite": "overwrite.md",
+        "xref": [
+            "xref.yml"
+        ],
+        "globalMetadata": {
+            "_appTitle": "GameCanvas",
+            "_appFooter": "(c) 2015-2020 Smart Device Programming.",
+            "_appLogoPath": "images/logo.png",
+            "_disableNavbar": true,
+            "_disableBreadcrumb": true,
+            "_disableToc": true,
+            "_disableContribution": true
+        },
+        "dest": "../GameCanvas-Unity/docs",
+        "template": [
+            "statictoc"
+        ]
     }
-  ],
-  "build": {
-    "content": [
-      {
-        "files": [
-          "api/**.yml"
-        ],
-        "cwd": "obj"
-      },
-      {
-        "files": [
-		  "index.md",
-          "api/*.md",
-          "note/*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "toc.md",
-          "overwrite.md"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "images/**",
-          "styles/**",
-		  "langwordmapping/**"
-        ],
-        "exclude": [
-          "obj/**",
-          "toc.md",
-          "overwrite.md"
-        ]
-      }
-    ],
-	"overwrite": "overwrite.md",
-	"xref": [
-      "xref.yml"
-    ],
-	"globalMetadata": {
-		"_appTitle": "GameCanvas",
-		"_appFooter": "(c) 2015-2018 Smart Device Programming.",
-		"_appLogoPath": "images/logo.png",
-		"_disableNavbar": true,
-		"_disableBreadcrumb": true,
-		"_disableToc": true,
-		"_disableContribution": true
-	},
-    "dest": "../GameCanvas-Unity/docs",
-    "template": [
-      "statictoc"
-    ]
-  }
 }

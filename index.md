@@ -13,8 +13,8 @@
 
 #### 資料
 
-- [APIドキュメント](api/GameCanvas.Proxy.html)
-- [新旧API対応表](note/compatibility.html)
+- [APIドキュメント](xref:GameCanvas.Proxy)
+- [新旧API対応表](note/compatibility.md)
 
 #### リンク
 
