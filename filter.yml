@@ -4,6 +4,11 @@ apiRules:
     hasAttribute:
       uid: System.ObsoleteAttribute
 - exclude:
+    hasAttribute:
+      uid: System.ComponentModel.EditorBrowsableAttribute
+      ctorArguments:
+      - System.ComponentModel.EditorBrowsableState.Never
+- exclude:
     uidRegex: ^GameCanvas\.Editor$
     type: Namespace
 - exclude:
@@ -21,3 +26,6 @@ apiRules:
 - exclude:
     uidRegex: ^GameCanvas\.Tests\.[^.]+$
     type: Type
+- exclude:
+    uidRegex: ^GameCanvas\.Gc(Font|Image|Sound|Text)\..*$
+    type: Field

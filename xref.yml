@@ -3,14 +3,53 @@
   name: Color
   href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Color.html
 - uid: UnityEngine.Rect
-  name: Color
+  name: Rect
   href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Rect.html
+- uid: UnityEngine.AudioClip
+  name: AudioClip
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/AudioClip.html
+- uid: UnityEngine.AudioType
+  name: AudioType
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/AudioType.html
+- uid: UnityEngine.Texture
+  name: Texture
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Texture.html
+- uid: UnityEngine.Texture2D
+  name: Texture2D
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Texture2D.html
+- uid: UnityEngine.WebCamTexture
+  name: WebCamTexture
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/WebCamTexture.html
+- uid: UnityEngine.KeyCode
+  name: KeyCode
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/KeyCode.html
 - uid: UnityEngine.FontStyle
   name: FontStyle
   href: https://docs.unity3d.com/ja/2019.4/ScriptReference/FontStyle.html
+- uid: UnityEngine.LocationServiceStatus
+  name: LocationServiceStatus
+  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/LocationServiceStatus.html
 - uid: Unity.Mathematics.float2
   name: float2
   href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.float2.html
+- uid: Unity.Mathematics.float2x3
+  name: float2x3
+  href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.float2x3.html
+- uid: Unity.Mathematics.float4x4
+  name: float4x4
+  href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.float4x4.html
+- uid: Unity.Mathematics.int2
+  name: int2
+  href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.int2.html
+- uid: Unity.Collections.NativeArray`1
+  name: NativeArray
+  href: https://docs.unity3d.com/ScriptReference/Unity.Collections.NativeArray_1.html
+- uid: Unity.Collections.NativeArray`1.ReadOnly
+  name: NativeArray.ReadOnly
+  href: https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Unity.Collections.NativeArray_1.ReadOnly.html
+- uid: Unity.Collections.NativeList`1
+  name: NativeList
+  href: https://docs.unity3d.com/Packages/com.unity.collections@0.12/api/Unity.Collections.NativeList-1.html
 - uid: System.Boolean
   name: bool
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.boolean?view=netstandard-2.0
@@ -23,21 +62,33 @@
 - uid: System.String
   name: string
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.string?view=netstandard-2.0
+- uid: System.Byte
+  name: byte
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.byte?view=netstandard-2.0
 - uid: System.Int32
   name: int
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.int32?view=netstandard-2.0
 - uid: System.Int64
   name: long
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.int64?view=netstandard-2.0
-- uid: System.Nullable
+- uid: System.Char
+  name: char
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.char?view=netstandard-2.0
+- uid: System.Nullable`1
   name: Nullable
-  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.nullable?view=netstandard-2.0
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.nullable-1?view=netstandard-2.0
+- uid: System.Action`1
+  name: Action
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.action-1?view=netstandard-2.0
 - uid: System.DateTimeOffset
   name: DateTimeOffset
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.datetimeoffset?view=netstandard-2.0
 - uid: System.DayOfWeek
   name: DayOfWeek
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.dayofweek?view=netstandard-2.0
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.collections.objectmodel.readonlycollection-1?view=netstandard-2.0
 - uid: System.Numerics.BigInteger
   name: BigInteger
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.numerics.biginteger?view=netstandard-2.0

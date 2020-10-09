@@ -11,10 +11,22 @@
 プログラミング初心者でも、スマートデバイス向けアプリケーションを  
 楽しく開発できる環境を目指して開発されました。
 
-#### 資料
+#### APIドキュメント
 
-- [APIドキュメント](xref:GameCanvas.Proxy)
-- [新旧API対応表](note/compatibility.md)
+- [IGameCanvas](xref:GameCanvas.GcProxy)
+  - [IGraphics](xref:GameCanvas.IGraphics)
+  - [ISound](xref:GameCanvas.ISound)
+  - [INetwork](xref:GameCanvas.INetwork)
+  - [ISceneManagement](xref:GameCanvas.ISceneManagement)
+  - [ITime](xref:GameCanvas.ITime)
+  - [IPhysics](xref:GameCanvas.IPhysics)
+  - [IStorage](xref:GameCanvas.IStorage)
+  - [IMath](xref:GameCanvas.IMath)
+  - [IInputPointer](xref:GameCanvas.IInputPointer)
+  - [IInputKey](xref:GameCanvas.IInputKey)
+  - [IInputAcceleration](xref:GameCanvas.IInputAcceleration)
+  - [IInputGeolocation](xref:GameCanvas.IInputGeolocation)
+  - [IInputCamera](xref:GameCanvas.IInputCamera)
 
 #### リンク
 

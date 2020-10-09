@@ -3,6 +3,5 @@
   href: obj/index.md
 - name: API Documentation
   href: obj/api/
-  homepage: api/GameCanvas.Proxy.md
 - name: API Compatibility
   href: obj/note/compatibility.md
