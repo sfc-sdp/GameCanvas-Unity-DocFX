@@ -1,1 +1,1 @@
-packages\docfx.console.2.56.5\tools\docfx --serve
+packages\docfx.console.2.56.6\tools\docfx --serve
