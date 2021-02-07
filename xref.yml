@@ -1,34 +1,40 @@
 ﻿references:
 - uid: UnityEngine.Color
   name: Color
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Color.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Color.html
 - uid: UnityEngine.Rect
   name: Rect
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Rect.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Rect.html
 - uid: UnityEngine.AudioClip
   name: AudioClip
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/AudioClip.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/AudioClip.html
 - uid: UnityEngine.AudioType
   name: AudioType
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/AudioType.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/AudioType.html
 - uid: UnityEngine.Texture
   name: Texture
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Texture.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Texture.html
 - uid: UnityEngine.Texture2D
   name: Texture2D
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/Texture2D.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Texture2D.html
 - uid: UnityEngine.WebCamTexture
   name: WebCamTexture
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/WebCamTexture.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/WebCamTexture.html
 - uid: UnityEngine.KeyCode
   name: KeyCode
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/KeyCode.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/KeyCode.html
 - uid: UnityEngine.FontStyle
   name: FontStyle
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/FontStyle.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/FontStyle.html
+- uid: Unity.Collections.NativeArray`1
+  name: NativeArray
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Unity.Collections.NativeArray_1.html
+- uid: Unity.Collections.NativeArray`1.ReadOnly
+  name: NativeArray.ReadOnly
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/Unity.Collections.NativeArray_1.ReadOnly.html
 - uid: UnityEngine.LocationServiceStatus
   name: LocationServiceStatus
-  href: https://docs.unity3d.com/ja/2019.4/ScriptReference/LocationServiceStatus.html
+  href: https://docs.unity3d.com/ja/2020.2/ScriptReference/LocationServiceStatus.html
 - uid: Unity.Mathematics.float2
   name: float2
   href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.float2.html
@@ -41,15 +47,12 @@
 - uid: Unity.Mathematics.int2
   name: int2
   href: https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.int2.html
-- uid: Unity.Collections.NativeArray`1
-  name: NativeArray
-  href: https://docs.unity3d.com/ScriptReference/Unity.Collections.NativeArray_1.html
-- uid: Unity.Collections.NativeArray`1.ReadOnly
-  name: NativeArray.ReadOnly
-  href: https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Unity.Collections.NativeArray_1.ReadOnly.html
 - uid: Unity.Collections.NativeList`1
   name: NativeList
-  href: https://docs.unity3d.com/Packages/com.unity.collections@0.12/api/Unity.Collections.NativeList-1.html
+  href: https://docs.unity3d.com/Packages/com.unity.collections@0.15/api/Unity.Collections.NativeList-1.html
+- uid: UnityEngine.InputSystem.Key
+  name: Key
+  href: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/api/UnityEngine.InputSystem.Key.html
 - uid: System.Boolean
   name: bool
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.boolean?view=netstandard-2.0
@@ -92,3 +95,9 @@
 - uid: System.Numerics.BigInteger
   name: BigInteger
   href: https://docs.microsoft.com/ja-jp/dotnet/api/system.numerics.biginteger?view=netstandard-2.0
+- uid: System.Span`1
+  name: Span
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.span-1?view=netstandard-2.1
+- uid: System.ReadOnlySpan`1
+  name: ReadOnlySpan
+  href: https://docs.microsoft.com/ja-jp/dotnet/api/system.readonlyspan-1?view=netstandard-2.1
