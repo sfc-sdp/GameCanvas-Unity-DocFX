@@ -1,0 +1,7 @@
+### YamlMime:TableOfContent
+- name: Introduction
+  href: index.md
+- name: API Documentation
+  href: api/GameCanvas.GcProxy.yml
+- name: API Compatibility
+  href: note/compatibility.md

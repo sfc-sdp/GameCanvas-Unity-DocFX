@@ -1,7 +1,0 @@
-
-- name: Introduction
-  href: obj/index.md
-- name: API Documentation
-  href: obj/api/
-- name: API Compatibility
-  href: obj/note/compatibility.md
